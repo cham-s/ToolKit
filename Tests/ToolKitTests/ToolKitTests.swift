@@ -19,5 +19,6 @@ final class ToolKitTests: XCTestCase {
 
     static var allTests = [
         ("testExample", testExample),
+        ("testIsDirectory", testIsDiretory)
     ]
 }
