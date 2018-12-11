@@ -1,6 +1,6 @@
 import Foundation
 
-extension FileManager {
+public extension FileManager {
     /// Provides the document directory of the
     /// current user
     /// - Returns: The URL of the document directory
@@ -10,7 +10,7 @@ extension FileManager {
     }
 }
 
-extension URL {
+public extension URL {
     /// Check if the path of the URL is a directory or not.
     /// It performs the version check for the platform, whether
     /// hasDirectoryPath
